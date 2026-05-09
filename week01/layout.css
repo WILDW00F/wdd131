@@ -5,28 +5,28 @@ body {
 }
 
 header {
-  background: lightpink;
+  background: #333333;
   padding: 2rem;
   grid-column: 1 / 4;
 }
 
 .left-sidebar {
-  background: lightblue;
+  background: #ffffff;
   grid-column: 1 / 2;
 }
 
 main {
-  background: coral;
+  background: #cccccc;
   grid-column: 2 / 3;
 }
 
 .right-sidebar {
-  background: yellow;
+  background: #ffffff;
   grid-column: 3 / 4;
 }
 
 footer {
-  background: wheat;
+  background: #333333;
   padding: 2rem;
   text-align: center;
   grid-column: 1 / 4;

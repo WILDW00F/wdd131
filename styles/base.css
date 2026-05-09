@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1f4e6b;
+    color: white;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+h1 {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.card h2 {
+    background-color: #2f5f7f;
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 15px -15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.about-content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.about-content img {
+    width: 150px;
+}
+
+.location {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.location img {
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f4e6b;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
