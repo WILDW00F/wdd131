@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place Page</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Japan</h1>
+  </header>
+
+  <main>
+
+    <picture>
+      <source media="(min-width: 768px)" srcset="images/hero-large.webp">
+      <img src="images/hero-small.webp" alt="Beautiful view of Japan" class="hero">
+    </picture>
+
+    <section class="card data">
+  <h2>Data</h2>
+
+        <p><span>Area:</span> 377,975 sq km</p>
+        <p><span>Population:</span> 125,700,000</p>
+        <p><span>Capital:</span> Tokyo</p>
+        <p><span>Languages:</span> Japanese</p>
+        <p><span>Currency:</span> Japanese Yen</p>
+        <p><span>Time Zone:</span> UTC+9</p>
+        <p><span>Calling Code:</span> +81</p>
+        <p><span>Internet TLD:</span> .jp</p>
+    </section>
+
+    <section class="card weather">
+      <h2>Weather</h2>
+
+      <img src="images/weather.svg" alt="Weather Icon" class="weather-icon">
+
+      <p><span>Temperature:</span> <span id="temperature">8</span>°C</p>
+      <p><span>Conditions:</span> Cloudy</p>
+      <p><span>Wind:</span> <span id="windspeed">10</span> km/h</p>
+      <p><span>Wind Chill:</span> <span id="windchill"></span></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="year"></span> | Thomas Dettmar | Japan
+    </p>
+
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>
