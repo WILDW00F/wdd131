@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #4A90E2;
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #2E8B57;
+}
+
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
