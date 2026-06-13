@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather and Migration</title>
+
+    <meta name="description" content="WDD 131 Project – Bird Migration Tracker | Thomas Dettmar | Information about how weather affects bird migration.">
+    <meta name="author" content="Thomas Dettmar">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script defer src="scripts/weather.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Weather and Migration</h1>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="species.html">Species</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+    
+        <section>
+        
+            <h2>How Weather Affects Migration</h2>
+        
+            <select id="weatherSelect">
+            
+                <option value="wind">
+                    Wind
+                </option>
+            
+                <option value="temperature">
+                    Temperature
+                </option>
+            
+                <option value="storms">
+                    Storms
+                </option>
+            
+            </select>
+        
+            <p id="weatherOutput">
+                Select a weather factor.
+            </p>
+        
+        </section>
+        
+        <section>
+        
+            <img
+            src="images/weather.webp"
+            alt="Weather map"
+            loading="lazy">
+        
+        </section>
+    
+    </main>
+    
+    <footer>
+        <p>&copy; Thomas Dettmar | 2026 Bird Migration Tracker</p>
+    
+        <a href="references.html">References</a>
+    </footer>
+    
+</body>
+</html>

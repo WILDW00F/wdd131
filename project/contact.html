@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bird Sighting Form</title>
+
+    <meta name="description" content="WDD 131 Project – Bird Migration Tracker | Thomas Dettmar | Contact page for submitting bird sightings.">
+    <meta name="author" content="Thomas Dettmar">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script defer src="scripts/contact.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+    <h1>Bird Sightings</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="species.html">Species</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    </header>
+
+    <main>
+
+        <form id="sightingForm">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="bird">Bird Species</label>
+        <input type="text" id="bird" required>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" required>
+
+        <button type="submit">Submit</button>
+
+        </form>
+
+    <p id="message"></p>
+
+    <p id="count"></p>
+
+    </main>
+
+    <footer>
+        <p>&copy; Thomas Dettmar | 2026 Bird Migration Tracker</p>
+
+        <a href="references.html">References</a>
+    </footer>
+
+</body>
+</html>

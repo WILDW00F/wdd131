@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Migration Tracker</title>
+    <meta name="description" content="WDD 131 Project – Bird Migration Tracker | Thomas Dettmar | Home page containing the majority of the information about bird migration. ">
+    <meta name="author" content="Thomas Dettmar">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bird Migration Tracker</h1>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="species.html">Species</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section class="hero">
+
+            <img
+                src="images/hero.webp"
+                alt="Migrating birds">
+
+            <div class="hero-text">
+                <h2>Understanding Bird Migration</h2>
+            
+                <p>
+                    Explore migration routes, species profiles,
+                    and the weather patterns that guide birds
+                    across continents.
+                </p>
+            </div>
+        
+        </section>
+        
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                Bird migration is the seasonal movement of birds between
+                breeding and wintering grounds. Millions of birds travel
+                thousands of miles every year.
+            </p>
+        </section>
+        
+        <section class="info-card">
+            <h2>Current Migration Season</h2>
+            <p id="season"></p>
+            <article>
+                <h3>Spring Migration</h3>
+                <p>Birds travel north to breeding areas.</p>
+            </article>
+        
+            <article>
+                <h3>Fall Migration</h3>
+                <p>Birds move south to warmer climates.</p>
+            </article>
+        </section>
+        
+        <section>
+            <h2>Featured Migration Routes</h2>
+
+            <div class="routes-grid">
+            
+                <article class="route-card">
+                    <img
+                        class="map-image"
+                        src="images/migration-map.webp"
+                        alt="North American migration routes"
+                        loading="lazy">
+                
+                    <div class="route-content">
+                        <h3>Atlantic Flyway</h3>
+                    
+                        <p>
+                            Eastern North American route used by
+                            millions of migratory birds each year.
+                        </p>
+                    </div>
+                </article>
+            
+                <article class="route-card">
+                    <img
+                        class="bird-image"
+                        src="images/goose.webp"
+                        alt="Canada geese flying"
+                        loading="lazy">
+                
+                    <div class="route-content">
+                        <h3>Pacific Flyway</h3>
+                    
+                        <p>
+                            Western migration route extending from
+                            Alaska to South America.
+                        </p>
+                    </div>
+                </article>
+            
+            </div>
+        </section>
+        
+        <section>
+            <h2>Conservation Spotlight</h2>
+        
+            <p>
+                Habitat protection helps migratory birds complete their
+                journeys safely.
+            </p>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; Thomas Dettmar | 2026 Bird Migration Tracker</p>
+    
+        <a href="references.html">References</a>
+    </footer>
+    
+</body>
+</html>
